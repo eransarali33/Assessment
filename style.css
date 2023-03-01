@@ -354,14 +354,20 @@ footer p {
 }
 
 .main-2 {
-  background-color: rgb(9, 2, 44);
+  background-color: rgb(11, 4, 51);
   color: white;
   display: flex;
   flex-direction: row;
 }
-.main-2a img {
-  width: 55vw;
+
+.main-2a {
+  width: 53vw;
   height: 100%;
+  background-image: url("https://media.istockphoto.com/id/1335852418/vector/modern-world-map-made-of-lines-and-dots-on-dark-blue-background.jpg?s=612x612&w=0&k=20&c=XfJWcVZDH4MSZgS187PtdL3UNC00u4x6CQr2YQBSAzA=");
+  background-size: cover;
+  margin-left: 7%;
+  margin-top: 4%;
+  margin-bottom: 5%;
 }
 .main-2b {
   padding-left: 8%;
@@ -410,4 +416,81 @@ footer p {
 
 .main-2b h4 {
   padding-bottom: 2%;
+}
+
+/* Editing */
+.main-2a .part1 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  width: 17%;
+  padding: 1% 0.4%;
+  margin: 13% 45% 3%;
+  background-color: black;
+}
+.i {
+  color: rgb(42, 42, 138);
+}
+.part1 p {
+  padding-left: 13%;
+}
+.main-2a .part2 {
+  display: flex;
+  flex-direction: row;
+}
+/* .shibImg {
+  height: 65px;
+}
+.part2 .ethImg {
+  height: 35px;
+} */
+
+.main-2a .part3 {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 1% 0.4%;
+  margin-top: 3%;
+  margin-left: 64%;
+  background-color: black;
+  margin-right: 7%;
+}
+.part3 p {
+  padding-left: 11px;
+}
+.i2 {
+  color: rgb(42, 42, 138);
+}
+
+.main-2a .part4 {
+  display: flex;
+  flex-direction: row;
+}
+.part4b {
+  height: 25px;
+}
+
+.main-2a .part4a {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 1% 0.4%;
+  margin-top: 6%;
+  margin-left: 33%;
+  background-color: black;
+  margin-bottom: 10%;
+}
+.part4a p {
+  padding-left: 11px;
+}
+.i3 {
+  color: rgb(203, 69, 69);
 }
