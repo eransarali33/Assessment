@@ -421,7 +421,6 @@ footer p {
   padding-bottom: 2%;
 }
 
-/* Editing */
 .main-2a .part1 {
   display: flex;
   flex-direction: row;
@@ -513,6 +512,47 @@ footer p {
 /* Media Query upto width 540px */
 
 @media (max-width: 560px) {
+  /* Need to modify */
+  header img {
+    height: 12px;
+  }
+  header p {
+    font-size: xx-small;
+    font-weight: 300;
+  }
+  header i {
+    font-size: small;
+    padding-right: 2%;
+  }
+
+  /* Finished below */
+  .main .maintext p {
+    font-size: small;
+  }
+  .main .headlist {
+    font-size: medium;
+    font-weight: 300;
+    padding-left: 18%;
+  }
+  .main .coinlist p {
+    font-size: xx-small;
+  }
+  .main .coinlist img {
+    height: 16px;
+    padding-left: 8%;
+  }
+  .main .coinlist .shibaInu img {
+    height: 20px;
+  }
+  .main .chart img {
+    height: 25px;
+  }
+
+  .button .btn {
+    font-size: small;
+    padding: 2%;
+  }
+
   .main-3 {
     background-color: rgb(15, 15, 58);
     display: flex;
@@ -575,52 +615,38 @@ footer p {
   .portfolio {
     margin: 0 9vw;
     border-radius: 13px;
-    background-color: rgb(3, 3, 53);
   }
   .portfolio h3 {
-    color: white;
     padding: 3% 0 3% 9%;
-    font-family: "Source Sans Pro", sans-serif;
   }
 
   .cardValB {
     padding-left: 30%;
     padding-top: 3.5%;
-    color: rgb(29, 219, 29);
   }
   .cardValE {
     padding-left: 25%;
     padding-top: 3.5%;
-    color: rgb(29, 219, 29);
   }
   .cardValL {
     padding-left: 28%;
     padding-top: 3.5%;
-    color: rgb(29, 219, 29);
   }
 
   .cardBitcoin div {
     padding-left: 5%;
     padding-top: 2%;
-    color: white;
-    font-family: "Source Sans Pro", sans-serif;
   }
   .cardEthereum div {
     padding-left: 5%;
     padding-top: 2%;
-    color: white;
-    font-family: "Source Sans Pro", sans-serif;
   }
   .cardLitecoin div {
     padding-left: 5%;
     padding-top: 2%;
-    color: white;
-    font-family: "Source Sans Pro", sans-serif;
   }
 
   .main-4 {
-    background-color: rgb(9, 2, 44);
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -635,8 +661,6 @@ footer p {
   }
 
   .main-2 {
-    background-color: rgb(11, 4, 51);
-    color: white;
     display: flex;
     flex-direction: column;
   }
@@ -644,10 +668,8 @@ footer p {
   .main-2a {
     width: 80vw;
     height: 100%;
-    background-image: url("https://media.istockphoto.com/id/1335852418/vector/modern-world-map-made-of-lines-and-dots-on-dark-blue-background.jpg?s=612x612&w=0&k=20&c=XfJWcVZDH4MSZgS187PtdL3UNC00u4x6CQr2YQBSAzA=");
     background-size: cover;
     margin: 5% 8vw;
-    font-family: "Source Sans Pro", sans-serif;
   }
   .main-2a .part1 {
     width: 38%;
@@ -683,7 +705,6 @@ footer p {
     padding-left: 8%;
     padding-top: 3%;
     padding-bottom: 5%;
-    font-family: "Source Sans Pro", sans-serif;
   }
 
   .shibImg img {
@@ -701,6 +722,61 @@ footer p {
 
 /* Media Query upto width 280px */
 @media (max-width: 280px) {
+  /* Need to modify */
+
+  header img {
+    height: 9px;
+  }
+  header p {
+    font-size: 7px;
+    font-weight: 100;
+  }
+  .main .coinlist .abbr {
+    font-size: 7px;
+    padding-left: 0%;
+  }
+
+  .main .maintext p {
+    font-size: 7px;
+  }
+  .main .headlist {
+    font-size: 7px;
+    font-weight: 300;
+    padding-left: 18%;
+  }
+  .main .coinlist p {
+    font-size: 5px;
+  }
+  .main .coinlist img {
+    height: 9px;
+    padding-left: 8%;
+  }
+  .main .coinlist .shibaInu {
+    padding-bottom: 4%;
+  }
+  .main .coinlist .shibaInu img {
+    height: 11px;
+  }
+
+  .main .chart img {
+    height: 15px;
+  }
+  .main .bitcoinCh {
+    padding-bottom: 35%;
+  }
+  .main .ethereumCh {
+    padding-bottom: 25%;
+  }
+  .main .shibaInuCh {
+    padding-bottom: 35%;
+  }
+
+  .button .btn {
+    font-size: x-small;
+    padding: 2%;
+  }
+
+  /* Already Finished */
   .main-2a .part1 {
     width: 48%;
     margin-left: 33%;
@@ -764,9 +840,14 @@ footer p {
   }
 }
 
-/* Media Query from width 768px to 912px */
-@media ((min-width: 768px) and (max-width:912px)) {
+/* Media Query from width 766px to 912px */
+@media ((min-width: 766px) and (max-width:912px)) {
   /* Main-2a part Media Query */
+
+  header p {
+    font-size: medium;
+    font-weight: 500;
+  }
   .main-2a .part1 {
     width: 30%;
   }
