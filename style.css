@@ -512,7 +512,6 @@ footer p {
 /* Media Query upto width 540px */
 
 @media (max-width: 560px) {
-  /* Need to modify */
   header img {
     height: 12px;
   }
@@ -525,7 +524,6 @@ footer p {
     padding-right: 2%;
   }
 
-  /* Finished below */
   .main .maintext p {
     font-size: small;
   }
@@ -722,8 +720,6 @@ footer p {
 
 /* Media Query upto width 280px */
 @media (max-width: 280px) {
-  /* Need to modify */
-
   header img {
     height: 9px;
   }
@@ -776,7 +772,6 @@ footer p {
     padding: 2%;
   }
 
-  /* Already Finished */
   .main-2a .part1 {
     width: 48%;
     margin-left: 33%;
